@@ -1,0 +1,13 @@
+# copied from https://github.com/Shopify/web/blob/main/areas/clients/admin-web/.browserslistrc in Oct 2024
+[production]
+defaults
+chrome >= 103
+ios >= 15.0
+not OperaMobile > 0
+not and_qq > 0
+not OperaMini all
+not UCAndroid > 0
+not kaios > 0
+
+[server]
+current node
